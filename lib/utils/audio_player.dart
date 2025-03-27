@@ -1,7 +1,12 @@
 import 'package:audioplayers/audioplayers.dart';
 
-final AudioPlayer player = AudioPlayer();
+Future<void> playSound(String soundFile) async {
+  final player = AudioPlayer();
+  final filePath = "sounds/$soundFile";
 
-void playSound(String soundFile) async {
-  await player.play(AssetSource("sounds/$soundFile")); 
+  try {
+    await player.play(AssetSource(filePath));
+  } catch (e) {
+    print("Error playing sound: $e");
+  }
 }
