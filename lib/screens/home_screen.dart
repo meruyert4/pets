@@ -64,27 +64,27 @@ class HomeScreen extends StatelessWidget {
               alignment: WrapAlignment.center,
               children: [
                 PetButton(
-                  petName: "Dog", 
+                  petName: "Dog 🐶", 
                   soundFile: "dog_bark.mp3", 
                   color: const Color.fromARGB(255, 112, 209, 242)
                 ),
                 PetButton(
-                  petName: "Cat", 
+                  petName: "Cat 🐱", 
                   soundFile: "cat_meow.mp3", 
                   color: const Color.fromARGB(255, 242, 199, 129)
                 ),
                 PetButton(
-                  petName: "Bird", 
+                  petName: "Bird 🐦", 
                   soundFile: "bird_chirp.mp3", 
                   color: const Color.fromARGB(255, 152, 249, 244)
                 ),
                 PetButton(
-                  petName: "Cow", 
+                  petName: "Cow 🐮", 
                   soundFile: "cow_moo.mp3", 
                   color: const Color.fromARGB(255, 134, 188, 242)
                 ),
                 PetButton(
-                  petName: "Sheep", 
+                  petName: "Sheep 🐑", 
                   soundFile: "sheep_baa.mp3", 
                   color: const Color.fromARGB(255, 244, 213, 118)
                 ),
